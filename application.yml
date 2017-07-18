@@ -1,7 +1,7 @@
-eureka
-  client
-    serviceUrl
-      defaultZone=http://139.219.185.54:8761/eureka/
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://139.219.185.54:8761/eureka/
 ---
   spring:
     profiles: subject
